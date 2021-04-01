@@ -1,13 +1,9 @@
-# Local Stream Tools
+# Base Application Overlay
 
-Local Stream Tools is a tool for streamers that supports a number of different tools
+This tool is intended to be a base tool for building overlays on top of other applications. These overlays can be made up of multiple independent windows
 
-- Create custom data driven overlays
-- Chat commands, chatbot
-  - Chat commands that interact with OBS
-- Channel Events
-  - Cheers
-  - Subs
-  - Hosts
-  - Raids
-- Donation events off of Twitch (Paypal, other providers?)
+## Intended Features
+
+- [] Auto-detect application start/stop and background/foreground
+- [] Start overlay daemon on boot
+- [] Auto-updates of overlay
